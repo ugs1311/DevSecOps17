@@ -1,0 +1,4 @@
+FROM scrach
+COPY "hello" / 
+RUN ["/hello"]
+CMD ["/hello"]
